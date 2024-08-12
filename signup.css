@@ -1,0 +1,146 @@
+/* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Signup Page */
+
+
+
+/* body{
+
+    background: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+
+}
+
+form{
+   
+    border: 1px solid transparent;
+    background-color: transparent !important;
+    margin-left: 440px;
+    margin-top: px;
+    width: 340px !important;
+    color: white !important;
+    padding-left: 40px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    border-radius: 20px !important;
+    /* position: fixed; */
+
+    
+
+
+/* label .labe{
+
+    margin-left:  ;
+
+} */
+
+/* div input {
+    width: 250px !important;
+    padding: 12px !important;
+    height: 30px !important;
+    border-radius: 10px !important;
+
+
+}
+
+button{
+
+    background: #29f700;
+    width: 100%;
+    border-radius: 15px !important;
+    margin-right: 80px !important;
+    
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+}
+
+.container{
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(13, 20, 40, 0.3);
+    margin: 50px auto 50px;
+    box-shadow: 2px 2px 5px 2px rgba(211, 246, 219, 0.3);
+    
+}
+body{
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container .head{
+    text-align: center;
+    color:#FBFBFF ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input label{
+   display: flex;
+   font-size: 18px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 10px;
+   margin-top: 10px;
+   color: #FBFBFF;
+}
+.input input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px 8px;
+}
+
+.container .gender{
+    color: #FBFBFF;
+    margin-top: 15px;
+    margin: 10px 10px 30px;
+    font-size: 18px;
+}
+
+
+.container .btn input{
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #29f700;
+    display: block;
+    margin-left: 120px;
+
+}
+
+.container .login a{
+
+    color: #fff;
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.container .login a:hover{
+    color: blue;
+}
+
+ 
+
+

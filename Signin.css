@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+}
+
+.container{
+    width: 500px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(13, 20, 40, 0.3);
+    margin: 250px auto 50px;
+    box-shadow: 2px 2px 5px 2px rgba(196, 100, 11, 0.3);
+    
+}
+body{
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .head{
+    text-align: center;
+    color:#FBFBFF ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.input label{
+   display: flex;
+   font-size: 18px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 10px;
+   margin-top: 10px;
+   color: #FBFBFF;
+}
+.input input{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px 8px;
+}
+.checkbox label{
+    color: #FBFBFF;
+    margin-left: 10px;
+    font-size: 20px;
+        
+}
+.checkbox input{
+    margin-left: 10px;
+}
+.container .gender{
+    color: #FBFBFF;
+    margin-top: 20px;
+    margin: 30px 10px 30px;
+    font-size: 18px;
+}
+
+.container .select{
+    color: #FBFBFF;
+    margin: 30px 10px 30px;
+    font-size: 20px;
+}
+.file label{
+    color: #FBFBFF ;
+    margin: 30px 10px 30px;
+    font-size: 20px;
+}
+.container .btn input{
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #29f700;
+    display: block;
+    margin-left: 170px;
+    margin-top: 18px;
+    
+    
+}
+.container .select select{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
